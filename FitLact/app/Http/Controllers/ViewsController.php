@@ -28,5 +28,9 @@ class ViewsController extends Controller
         return view('ayuda'); 
     } 
 
+    public function index_empezar(){
+        return view('empezar'); 
+    } 
+
     // NIVEL 3
 }

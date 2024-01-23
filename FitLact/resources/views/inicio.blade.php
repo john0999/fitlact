@@ -26,7 +26,7 @@
                                 </p>
 
                                 <div class="d-flex justify-content-center my-5">
-                                    <a href="" class="btn-start bg-blue-h">Empezar Ahora!</a>
+                                    <a href="{{route('empezar.index')}}" class="btn-start bg-blue-h">Empezar Ahora!</a>
                                 </div>
 
                                 <div class="d-flex justify-content-center my-5">

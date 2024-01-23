@@ -19,3 +19,6 @@ Route::get('/servicios', [ViewsController::class, 'index_servicios'])
 
 Route::get('/ayuda', [ViewsController::class, 'index_ayuda'])
     -> name('ayuda.index');
+
+Route::get('/empezar', [ViewsController::class, 'index_empezar'])
+    -> name('empezar.index');
