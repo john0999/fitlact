@@ -33,4 +33,16 @@ class ViewsController extends Controller
     } 
 
     // NIVEL 3
+    //SERVICIOS
+    public function nutricion(){
+        return view('service.nutricion');
+    }
+
+    public function productos(){
+        return view('service.productos');
+    }
+
+    public function salud(){
+        return view('service.salud');
+    }
 }
