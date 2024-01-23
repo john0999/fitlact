@@ -1,0 +1,100 @@
+/* Variables - var() */
+
+:root{
+    --color-yellow: rgb(255, 195, 0);
+    --color-white: rgb(255, 255, 255);
+    --color-blue: rgb(78, 107, 224);
+    --color-blue-hover: rgb(40, 77, 222);
+}
+
+/* Reseteo */ 
+
+html,
+body{
+    overflow-x: hidden;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* Clases Minimalistas */
+
+.bg-blue{
+    background-color: var(--color-blue);
+}
+
+.c-blue{
+    color: var(--color-blue) ;
+}
+
+.c-white{
+    color: var(--color-white) ;
+}
+
+/* Navbar */
+
+.navbar{
+    position: sticky !important;
+    top: 0;
+}
+
+/* Logo */
+
+.logo__img{
+    width: 40px;
+}
+
+.logo__img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.logo__text{
+    font-size: 2rem;
+    margin-left: 0.5rem;
+}
+
+.logo__text p{
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 600 !important;
+}
+
+.btn-start{
+    background-color: var(--color-blue);
+    padding: 1rem;
+    font-weight: 600 !important;
+    color: var(--color-white);
+    text-decoration: none;
+    border-radius: 0.2rem;
+    transition: background-color 0.3s linear;
+}
+
+.btn-start:hover{
+    background-color: var(--color-blue-hover);
+    color: var(--color-white);
+}
+
+.rounded-circle{
+    width: 70%;
+}
+
+.container__img{
+    width: 100%;
+    border-radius: 50%;
+    background-color: var(--color-blue);
+}
+
+.container__img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.container-items{
+    max-width: 80%;
+    margin: 0 auto;
+}
