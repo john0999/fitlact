@@ -19,6 +19,10 @@ img{
     height: auto;
 }
 
+p{
+    margin: 0;
+}
+
 /* Clases Minimalistas */
 
 .bg-blue{
@@ -31,6 +35,10 @@ img{
 
 .c-white{
     color: var(--color-white) ;
+}
+
+.fw-600{
+    font-weight: 600 !important;
 }
 
 /* Navbar */
@@ -97,4 +105,32 @@ img{
 .container-items{
     max-width: 80%;
     margin: 0 auto;
+}
+
+.option{
+    max-width: 600px;
+    margin: 1rem auto;
+    padding: 1rem;
+    box-shadow: 0 0 1rem #eee;
+    text-decoration: none;
+    text-align: justify;
+}
+
+.option-img{
+    max-width: 50px;
+}
+
+.option-text{
+    margin-left: 1rem;
+    color: #444;
+}
+
+.back-page{
+    text-decoration: none;
+    color: #444;
+}
+
+.empezar-title{
+    font-size: 1.4rem;
+    font-variant: small-caps;
 }
